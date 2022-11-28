@@ -11,13 +11,9 @@ const Home = () => {
       </Head>
 
       <main className="main">
-        <h1 className="title">
+        <h1 className="text-3xl font-bold underline">
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
-
-        <p className="description">
-          Get started by editing <code className="code">pages/index.tsx</code>
-        </p>
       </main>
 
       <footer className="footer">
