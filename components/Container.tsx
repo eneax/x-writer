@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Link from "next/link";
 import { useRouter } from "next/router";
 
 const Container = ({
@@ -49,16 +48,15 @@ const Container = ({
       <main className="max-w-2xl mx-auto flex flex-col justify-center px-8 md:px-0 bg-gray-900">
         {children}
 
-        <footer className="flex flex-col justify-center w-full my-8">
-          <hr className="border-1 border-gray-800 mb-8" />
-          <div className="flex flex-col">
-            <Link
-              href="/"
-              className="text-sm text-center no-underline text-primary-50/50 hover:text-primary-50/70 transition"
-            >
-              © {new Date().getFullYear()} Enea Xharja
-            </Link>
-          </div>
+        <footer className="fixed bottom-5 left-5 w-auto h-auto z-10">
+          <a
+            href="https://eneaxharja.com"
+            className="no-underline rounded-2xl px-4 py-2.5 mb-6 mr-4 bg-gray-900/90 transition duration-300 hover:bg-gray-800/90 bg-glass"
+          >
+            <span className="text-primary-50 text-sm font-bold">
+              Made by Enea
+            </span>
+          </a>
         </footer>
       </main>
     </div>
