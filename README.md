@@ -1,4 +1,6 @@
-# 📝 x-writer
+# 📝 X-Writer
+
+X-Writer is your own AI writing assistant that takes a title as input and generates a full blog post for you.
 
 ## 🦄 Features
 
@@ -8,6 +10,14 @@
 - Tailwind CSS 3
 - Path Mapping (for absolute imports)
 - OpenAI GPT-3
+
+## 🗄️ Environment Variables
+
+Create a `.env.local` file in your root directory with the [OpenAI API key](https://beta.openai.com/account/api-keys).
+
+```
+OPENAI_API_KEY
+```
 
 ## 🚀 Quick start
 
@@ -25,3 +35,5 @@ Looking for more guidance? Full documentation available on the official [Next.js
 ## 💫 Deploy
 
 This project is deployed to _[Vercel](https://vercel.com)_.
+
+**_Note_**: The maximum execution timeout for [Vercel Serverless Functions](https://vercel.com/docs/concepts/functions/serverless-functions) is `10 seconds` when deployed on a Personal Account (Hobby plan). For Teams, the execution timeout is `60 seconds` (Pro plan) or `900 seconds` (Enterprise plan).
