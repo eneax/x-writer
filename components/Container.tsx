@@ -50,11 +50,13 @@ const Container = ({
 
         <footer className="fixed bottom-5 left-5 w-auto h-auto z-10">
           <a
-            href="https://eneaxharja.com"
+            href="https://github.com/eneax/x-writer-extension"
+            target="_blank"
+            rel="noopener noreferrer"
             className="no-underline rounded-2xl px-4 py-2.5 mb-6 mr-4 bg-gray-900/90 transition duration-300 hover:bg-gray-800/90 bg-glass"
           >
             <span className="text-primary-50 text-sm font-bold">
-              Made by Enea
+              Get Chrome Extension
             </span>
           </a>
         </footer>
