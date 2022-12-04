@@ -2,6 +2,8 @@
 
 X-Writer is your own AI writing assistant that takes a title as input and generates a full blog post for you.
 
+https://user-images.githubusercontent.com/19818937/205486692-73556ed4-3d20-41da-91ec-fcda673ae487.mov
+
 ## 🦄 Features
 
 - Next.js 13
@@ -9,7 +11,7 @@ X-Writer is your own AI writing assistant that takes a title as input and genera
 - TypeScript 4
 - Tailwind CSS 3
 - Path Mapping (for absolute imports)
-- OpenAI GPT-3
+- GPT-3 and OpenAI
 
 ## 🗄️ Environment Variables
 
