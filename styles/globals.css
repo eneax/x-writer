@@ -46,22 +46,6 @@ a {
   @apply text-lg text-primary-400 underline hover:no-underline;
 }
 
-ul {
-  @apply list-disc my-4 ml-4;
-}
-
-ol {
-  @apply list-decimal my-4 ml-4;
-}
-
-li {
-  @apply text-lg;
-}
-
-small {
-  @apply text-sm text-primary-50/50 italic;
-}
-
 .bg-glass {
   @apply backdrop-blur will-change-transform [@supports(backdrop-filter:blur(0px))]:bg-white/[3%];
 }
