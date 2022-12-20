@@ -18,7 +18,7 @@ https://user-images.githubusercontent.com/19818937/205486692-73556ed4-3d20-41da-
 Create a `.env.local` file in your root directory with the [OpenAI API key](https://beta.openai.com/account/api-keys).
 
 ```
-OPENAI_API_KEY
+OPENAI_API_KEY=GET_YOUR_OWN_KEY_FROM_OPENAI
 ```
 
 ## 🚀 Quick start
