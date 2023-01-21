@@ -36,6 +36,4 @@ Looking for more guidance? Full documentation available on the official [Next.js
 
 ## 💫 Deploy
 
-This project is deployed to _[Vercel](https://vercel.com)_.
-
 **_Note_**: The maximum execution timeout for [Vercel Serverless Functions](https://vercel.com/docs/concepts/functions/serverless-functions) is `10 seconds` when deployed on a Personal Account (Hobby plan). For Teams, the execution timeout is `60 seconds` (Pro plan) or `900 seconds` (Enterprise plan).
