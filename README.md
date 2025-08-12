@@ -2,7 +2,10 @@
 
 X-Writer is your own AI writing assistant that takes a title as input and generates a full blog post for you.
 
-https://user-images.githubusercontent.com/19818937/205486692-73556ed4-3d20-41da-91ec-fcda673ae487.mov
+## ⚠️ Disclaimer
+
+This project is intended for personal and educational experimentation with text generation technology.
+This project was created following the "GPT3 Writer" tutorial from [buildspace](https://github.com/buildspace/buildspace-projects).
 
 ## 🦄 Features
 
